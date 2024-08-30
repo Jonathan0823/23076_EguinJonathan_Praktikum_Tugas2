@@ -13,5 +13,11 @@ public class MatematikaBeraksi {
         mtk1.pengurangan(10, 5);
         mtk1.perkalian(10, 5);
         mtk1.pembagian(10, 5);
+
+        Matematika mtk2 = new Matematika();
+        mtk2.pertambahan(10, 5);
+        mtk2.pengurangan(10, 5);
+        mtk2.perkalian(10, 5);
+        mtk2.pembagian(10, 5);
     }
 }
