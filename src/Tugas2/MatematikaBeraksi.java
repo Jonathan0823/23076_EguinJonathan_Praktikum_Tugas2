@@ -1,4 +1,4 @@
-package Tugas1;
+package Tugas2;
 
 public class MatematikaBeraksi {
     public static void main(String[] args) {
