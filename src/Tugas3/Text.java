@@ -3,6 +3,7 @@ package Tugas3;
 public class Text {
     String Bingo;
 
+    // Constructor
     public Text() {
         this.Bingo = "There was a farmer who had a dog,\r\n" + //
                         "And Bingo was his name-o.\r\n" + //
