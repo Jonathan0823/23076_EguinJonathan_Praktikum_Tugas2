@@ -21,8 +21,8 @@ public class Matematika implements IMatematika {
     }
 
     // method pembagian
-    public void pembagian(int a, int b) {
-        int c = a / b;
+    public void pembagian(float a, float b) {
+        float c = a / b;
         System.out.println("Hasil pembagian " + a + " / " + b + " = " + c);
     }
 }

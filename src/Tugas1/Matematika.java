@@ -21,8 +21,8 @@ public class Matematika {
     }
 
     // method pembagian
-    void pembagian(int a, int b) {
-        int c = a / b;
+    void pembagian(float a, float b) {
+        float c = a / b;
         System.out.println("Hasil pembagian " + a + " / " + b + " = " + c);
     }
 }
