@@ -2,9 +2,10 @@ package Tugas3.LoopAndArrayVersion;
 
 public class Text {
     String Text;
+    // Array
     String[] Bingo = new String[5];
 
-
+    // Constructor
     public Text() {
         Text = "(clap)";
         Bingo[0] = "B";
@@ -14,6 +15,7 @@ public class Text {
         Bingo[4] = "O";
     }
 
+    // Method untuk menampilkan bingo
     public void getBingo() {
         for (int i = 0; i < 6; i++) {
             System.out.println("There was a farmer who had a dog,");
