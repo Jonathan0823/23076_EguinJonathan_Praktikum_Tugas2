@@ -19,7 +19,7 @@ public class Text {
     public void getBingo() {
 
         // Loop pertama untuk mengubah Huruf bingo menjadi huruf (clap)
-        for (int i = 0; i < 6; i++) {
+        for (int i = 0; i <= 5; i++) {
             System.out.println("There was a farmer who had a dog,");
             System.out.println("And Bingo was his name-o.");
             
@@ -36,7 +36,9 @@ public class Text {
             System.out.println();
 
             // Mengubah huruf yang terdapat dalam array Bingo menjadi (clap)
-            Bingo[i] = Text;
+            if (i >= 1) {
+            Bingo[i-1] = Text;
+            }
         }
     }
 
