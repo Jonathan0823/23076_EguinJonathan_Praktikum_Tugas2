@@ -6,8 +6,8 @@ public class Text {
     String[] Bingo = new String[5];
 
     // Constructor
-    public Text() {
-        Text = "(clap)";
+    public Text(String Text) {
+        this.Text = Text;
         Bingo[0] = "B";
         Bingo[1] = "I";
         Bingo[2] = "N";
@@ -20,6 +20,11 @@ public class Text {
 
         // Loop pertama untuk mengubah Huruf bingo menjadi huruf (clap)
         for (int i = 0; i <= 5; i++) {
+
+            // Mengubah huruf yang terdapat dalam array Bingo menjadi (clap)
+            if (i >= 1) {
+                Bingo[i-1] = Text;
+                }
             System.out.println("There was a farmer who had a dog,");
             System.out.println("And Bingo was his name-o.");
             
@@ -34,11 +39,6 @@ public class Text {
             }
             System.out.println("And Bingo was his name-o.");
             System.out.println();
-
-            // Mengubah huruf yang terdapat dalam array Bingo menjadi (clap)
-            if (i >= 1) {
-            Bingo[i-1] = Text;
-            }
         }
     }
 
