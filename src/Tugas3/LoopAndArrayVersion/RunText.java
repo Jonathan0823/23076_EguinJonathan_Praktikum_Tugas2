@@ -1,4 +1,4 @@
-package Tugas3.LoopAndArrayVersion;
+package tugas3.loopandarrayversion;
 
 public class RunText {
     public static void main(String[] args) {
